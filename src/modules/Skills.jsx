@@ -16,49 +16,25 @@ function Skills() {
   }
 
   return (
-    <div>
+    <div className='skill'>
       <h1>Select Your Skill</h1>
-
       <label htmlFor="php">PHP</label>
-      <input
-        onChange={handleSkills}
-        type="checkbox"
-        id="php"
-        value="php"
-      />
-
+      <input onChange={handleSkills} type="checkbox" id="php" value="php"/>
       <br />
       <br />
 
       <label htmlFor="node">Node</label>
-      <input
-        onChange={handleSkills}
-        type="checkbox"
-        id="node"
-        value="node"
-      />
-
+      <input onChange={handleSkills} type="checkbox" id="node" value="node"/>
       <br />
       <br />
 
       <label htmlFor="react">React</label>
-      <input
-        onChange={handleSkills}
-        type="checkbox"
-        id="react"
-        value="react"
-      />
-
+      <input onChange={handleSkills} type="checkbox" id="react" value="react"/>
       <br />
       <br />
 
       <label htmlFor="java">Java</label>
-      <input
-        onChange={handleSkills}
-        type="checkbox"
-        id="java"
-        value="java"
-      />
+      <input onChange={handleSkills} type="checkbox" id="java" value="java"/>
 
       <h2>Selected Skills: {skills.join(', ')}</h2>
     </div>

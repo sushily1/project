@@ -29,8 +29,8 @@ function Show() {
   ]
 
   return (
-    <div>
-      <h1>Dynamic Table using map()</h1>
+    <div className='mapf'>
+      <h1>Dynamic Table using map</h1>
 
       <table border="1">
         <thead>

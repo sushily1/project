@@ -1,0 +1,32 @@
+* {
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+.clock {
+    background-color: rgb(57, 41, 69);
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+.clh {
+
+    border: 1px;
+    text-align: center;
+}
+
+.skill{
+    background-color: rgb(101, 204, 248);
+    text-align: center;
+    text-decoration: solid;
+    text-decoration-color: cadetblue;
+
+}
+
+.mapf{
+    text-align: center;
+    backdrop-filter:inherit;
+  text-decoration: dashed;
+}
